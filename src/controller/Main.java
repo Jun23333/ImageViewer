@@ -7,7 +7,7 @@ import model.FileImageLoader;
 public class Main {
 
     public static void main(String[] args) {
-        File file = new File("C:\\Users\\lj116\\OneDrive\\Escritorio\\Texture2D");
+        File file = new File("RUTA");
         FileImageLoader imageLoader = new FileImageLoader(file);
         Image image = imageLoader.load();
         MainFrame mainFrame = new MainFrame();
